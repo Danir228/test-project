@@ -1,0 +1,15 @@
+#root {
+    min-width: 320px;
+}
+
+.container {
+    height: 100%;
+    max-width: 1298px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+
+    @media(max-width: 480px) {
+        max-width: 440px;
+
+    }
+}
